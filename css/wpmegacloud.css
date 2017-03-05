@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-mar-2017, 10:50
+    Author     : Togacharls
+*/
+
+.wpmega_form{
+    display: inline-block;
+    text-align: right;
+}
+
+.folder_node,
+.file_node{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.file_node{
+    color: #770000;
+}
+
+.folder_node{
+    color: #ff0000;
+}
+
+.folder_node:hover, .file_node:hover{
+    color: #ff8888;
+}
+
+.wpmega_error{
+    color: #dd0000;
+    font-weight: bold;
+}
+
+.wpmc_hide{
+    display: none;
+}
+
+.wpmega_searcher{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#wpmc_nodes{
+    margin-top: 25px;
+}
+
+.wpmega_trash{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.wpmega_trash:hover{
+    opacity: 1;
+}
